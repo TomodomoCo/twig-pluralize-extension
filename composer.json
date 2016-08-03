@@ -1,5 +1,5 @@
 {
-  "name": "vanpattenmedia/twig-pluralize",
+  "name": "vanpattenmedia/twig-pluralize-extension",
   "description": "Twig extension to output correctly pluralized strings",
   "keywords": ["twig extension", "plural", "twig"],
   "type": "library",
