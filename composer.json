@@ -1,0 +1,21 @@
+{
+  "name": "vanpattenmedia/twig-pluralize",
+  "description": "Twig extension to output correctly pluralized strings",
+  "keywords": ["twig extension", "plural", "twig"],
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=5.4.0",
+    "twig/twig": ">=v1.0.0"
+  },
+  "homepage": "https://www.vanpattenmedia.com/",
+  "authors": [
+    {
+      "name": "Chris Van Patten",
+      "homepage": "http://www.chrisvanpatten.com/"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "VanPattenMedia\\Twig\\": "src/" }
+  }
+}
