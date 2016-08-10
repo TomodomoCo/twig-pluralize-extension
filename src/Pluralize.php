@@ -4,6 +4,8 @@ namespace VanPattenMedia\Twig;
 
 use Twig_Extension;
 
+use Exception;
+
 class Pluralize extends Twig_Extension
 {
 
