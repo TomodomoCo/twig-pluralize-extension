@@ -1,5 +1,5 @@
 {
-  "name": "vanpattenmedia/twig-pluralize-extension",
+  "name": "tomodomo/twig-pluralize-extension",
   "description": "Twig extension to output correctly pluralized strings",
   "keywords": ["twig extension", "plural", "twig"],
   "type": "library",
@@ -8,14 +8,14 @@
     "php": ">=5.4.0",
     "twig/twig": ">=v1.0.0"
   },
-  "homepage": "https://www.vanpattenmedia.com/",
+  "homepage": "https://tomodomo.co/",
   "authors": [
     {
-      "name": "Chris Van Patten",
-      "homepage": "http://www.chrisvanpatten.com/"
+      "name": "Tomodomo",
+      "homepage": "https://tomodomo.co/"
     }
   ],
   "autoload": {
-    "psr-4": { "VanPattenMedia\\Twig\\": "src/" }
+    "psr-4": { "Tomodomo\\Twig\\": "src/" }
   }
 }
