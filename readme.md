@@ -4,10 +4,19 @@ A simple extension for Twig that allows you to pluralize a given string.
 
 ## Usage
 
+Register the function : 
+
+### Symfony
+Register the function in services.yml with : 
+
+```
+Tomodomo\Twig\Pluralize: ~
+```
+
 Register the function, then reference it in your template:
 
 ```twig
-This section has {{pluralize(categories|length, 'one category', '%d categories', 'no categories')}}.
+This section has {{ pluralize(categories|length, 'one category', '%d categories', 'no categories') }}.
 ```
 
 Given the values 0, 1, and 5, the above would output:
